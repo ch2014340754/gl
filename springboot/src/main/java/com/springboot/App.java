@@ -18,6 +18,7 @@ public class App {
         String  name = null;
         for (int i = 0; i < 100; i++) {
             if (name != null) {
+                System.out.println("fffdf");
             }
         }
     }
