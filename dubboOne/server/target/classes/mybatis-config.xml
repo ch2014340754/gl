@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <settings>
+        <!-- Globally enables or disables any caches configured in any mapper under this configuration -->
+        <setting name="cacheEnabled" value="true"/>
+        <!-- Sets the number of seconds the driver will wait for a response from the database -->
+        <setting name="defaultStatementTimeout" value="3000"/>
+        <!-- Enables automatic mapping from classic database column names A_COLUMN to camel case classic Java property names aColumn -->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <!-- Allows JDBC support for generated keys. A compatible driver is required.
+        This setting forces generated keys to be used if set to true,
+         as some drivers deny compatibility but still work -->
+        <setting name="useGeneratedKeys" value="true"/>
+        <!-- 设置控制台打印sql -->
+        <!--<setting name="logImpl" value="stdout_logging" />-->
+    </settings>
+
+    <!-- Continue going here -->
+
+    <!--<typeAliases>-->
+        <!--<package name="cn.com.countrygarden.ucenter.entity"/>-->
+    <!--</typeAliases>-->
+    <plugins>
+        <!-- com.github.pagehelper为PageHelper类所在包�? -->
+        <plugin interceptor="com.github.pagehelper.PageHelper">
+            <!-- 4.0.0以后版本可以不设置该参数 -->
+            <property name="dialect" value="mysql"/>
+            <!-- 该参数默认为false -->
+            <!-- 设置为true时，会将RowBounds第一个参数offset当成pageNum页码使用 -->
+            <!-- 和startPage中的pageNum效果�?�?-->
+            <property name="offsetAsPageNum" value="true"/>
+            <!-- 该参数默认为false -->
+            <!-- 设置为true时，使用RowBounds分页会进行count查询 -->
+            <property name="rowBoundsWithCount" value="true"/>
+            <!-- 设置为true时，如果pageSize=0或�?�RowBounds.limit = 0就会查询出全部的结果 -->
+            <!-- （相当于没有执行分页查询，但是返回结果仍然是Page类型�?-->
+            <property name="pageSizeZero" value="true"/>
+            <!-- 3.3.0版本可用 - 分页参数合理化，默认false禁用 -->
+            <!-- 启用合理化时，如果pageNum<1会查询第�?页，如果pageNum>pages会查询最后一�? -->
+            <!-- 禁用合理化时，如果pageNum<1或pageNum>pages会返回空数据 -->
+            <property name="reasonable" value="false"/>
+            <!-- 3.5.0版本可用 - 为了支持startPage(Object params)方法 -->
+            <!-- 增加了一个`params`参数来配置参数映射，用于从Map或ServletRequest中取�? -->
+            <!-- 可以配置pageNum,pageSize,count,pageSizeZero,reasonable,orderBy,不配置映射的用默认�?? -->
+            <!-- 不理解该含义的前提下，不要随便复制该配置 -->
+            <!--<property name="params" value="pageNum=pageHelperStart;pageSize=pageHelperRows;"/>-->
+            <!-- 支持通过Mapper接口参数来传递分页参�? -->
+            <property name="supportMethodsArguments" value="false"/>
+            <!-- always总是返回PageInfo类型,check�?查返回类型是否为PageInfo,none返回Page -->
+            <property name="returnPageInfo" value="none"/>
+        </plugin>
+    </plugins>
+
+    <!--<mappers>-->
+        <!--&lt;!&ndash;<package name="cn.com.countrygarden.ucenter.mapper" />&ndash;&gt;-->
+        <!--<mapper resource="mappers/DiaryMapper.xml"/>-->
+        <!--<mapper resource="mappers/EmpEvaluateMapper.xml"/>-->
+        <!--<mapper resource="mappers/EmployeeMapper.xml"/>-->
+        <!--<mapper resource="mappers/LikesMapper.xml"/>-->
+        <!--<mapper resource="mappers/PicMapper.xml"/>-->
+        <!--<mapper resource="mappers/RepliesMapper.xml"/>-->
+        <!--<mapper resource="mappers/TeamMapper.xml"/>-->
+        <!--<mapper resource="mappers/UserMapper.xml"/>-->
+    <!--</mappers>-->
+</configuration>

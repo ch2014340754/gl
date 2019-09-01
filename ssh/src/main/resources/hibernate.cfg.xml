@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!-- 配置数据库的相关信息 -->
+        <property name="connection.driver_class">
+            oracle.jdbc.driver.OracleDriver
+        </property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:1521/orcl?characterEncoding=utf8</property>
+        <property name="hibernate.connection.username">testing</property>
+        <property name="hibernate.connection.password">testing</property>
+
+        <!-- 配置hibernate的相关信息 -->
+        <!-- 是否显示底层的sql语句 -->
+        <property name="hibernate.show_sql">true</property>
+        <!-- 是否格式化sql语句 -->
+        <property name="hibernate.format_sql">true</property>
+        <!-- hibernate会帮自己创建数据库表，默认不会创建，需要配置。
+            值 update： 如果数据库里面不存在表，创建；如果已经存在，更新 -->
+        <property name="hibernate.hbm2ddl.auto">update</property>
+
+        <!-- 配置事务自动提交 -->
+        <!-- <property name="hibernate.connection.autocommit">true</property> -->
+
+        <!-- 引入映射配置文件 -->
+        <mapping resource="com/meng/entity/Users.hbm.xml" />
+    </session-factory>
+</hibernate-configuration>
