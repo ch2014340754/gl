@@ -1,4 +1,4 @@
-package com.gmalluser;
+package com.gmall.user;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
