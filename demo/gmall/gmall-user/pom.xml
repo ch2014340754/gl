@@ -31,7 +31,7 @@
         </dependency>
         <!-- 通用mapper -->
         <dependency>
-            <groupId>com.gmall</groupId>
+            <groupId>com</groupId>
             <artifactId>gmall-api</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>

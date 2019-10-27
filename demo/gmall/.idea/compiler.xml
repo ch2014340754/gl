@@ -10,8 +10,10 @@
         <module name="gmall-web-util" />
         <module name="gmall-server-util" />
         <module name="gmall-user" />
+        <module name="gmall-user-web" />
         <module name="gmall" />
         <module name="gmall-api" />
+        <module name="gmall-user-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +23,8 @@
       <module name="gmall-parent" target="1.8" />
       <module name="gmall-server-util" target="1.8" />
       <module name="gmall-user" target="1.8" />
+      <module name="gmall-user-service" target="1.8" />
+      <module name="gmall-user-web" target="1.8" />
       <module name="gmall-web-util" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -28,6 +32,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="gmall" options="-parameters" />
       <module name="gmall-user" options="" />
+      <module name="gmall-user-service" options="" />
+      <module name="gmall-user-web" options="" />
     </option>
   </component>
 </project>
