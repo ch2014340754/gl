@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa3bb8ca-33a2-4923-a2cf-479c91823bf4" name="Default Changelist" comment="dubbo框架">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_199.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/gmall/bean/PmsBaseCatalog1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/gmall/bean/PmsBaseCatalog2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/gmall/bean/PmsBaseCatalog3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/gmall/service/CatalogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-server/src/main/java/com/gmall/manage/mapper/PmsBaseCatalog1Mapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-server/src/main/java/com/gmall/manage/mapper/PmsBaseCatalog2Mapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-server/src/main/java/com/gmall/manage/mapper/PmsBaseCatalog3Mapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-server/src/main/java/com/gmall/manage/service/impl/CatalogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/gmall/manage/action/CatelogAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="fa3bb8ca-33a2-4923-a2cf-479c91823bf4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_1_5_21_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_1_5_21_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/gmall/bean/PmsBaseAttrInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/gmall/bean/PmsBaseAttrValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/gmall/service/AttrService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-server/src/main/java/com/gmall/manage/mapper/PmsBaseAttrInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-server/src/main/java/com/gmall/manage/mapper/PmsBaseAttrValueMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-server/src/main/java/com/gmall/manage/service/impl/AttrServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/gmall/manage/action/AttrAction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-user-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-user-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-common-util/gmall-common-util.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-common-util/gmall-common-util.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-common-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-common-util/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-server-util/gmall-server-util.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-server-util/gmall-server-util.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-web-util/gmall-web-util.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-web-util/gmall-web-util.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../imooc-springboot-starter" beforeDir="false" afterPath="$PROJECT_DIR$/../../imooc-springboot-starter" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -70,10 +67,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gmall-manage-web/src/main/java/com/gmall/manage/GmallManageWebApplication.java">
+        <entry file="file://$PROJECT_DIR$/gmall-manage-web/src/main/java/com/gmall/manage/action/AttrAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="307">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,10 +79,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gmall-manage-server/src/main/java/com/gmall/manage/mapper/PmsBaseCatalog3Mapper.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.24.RELEASE/spring-web-4.3.24.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="260">
+              <caret line="125" selection-start-line="125" selection-end-line="125" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gmall-api/src/main/java/com/gmall/service/AttrService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.24.RELEASE/spring-webmvc-4.3.24.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="537" selection-start-line="537" selection-end-line="537" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gmall-manage-web/src/main/java/com/gmall/manage/action/CatelogAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,28 +118,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gmall-manage-server/pom.xml">
+        <entry file="file://$PROJECT_DIR$/gmall-manage-server/src/main/java/com/gmall/manage/service/impl/CatalogServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="72">
+              <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#881#882#0" expanded="true" />
+                <element signature="e#937#938#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gmall-manage-web/pom.xml">
+        <entry file="file://$PROJECT_DIR$/gmall-server-util/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="936">
-              <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+            <state relative-caret-position="198">
+              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gmall-manage-web/src/main/java/com/gmall/manage/action/CatelogAction.java">
+        <entry file="file://$PROJECT_DIR$/gmall-manage-server/src/main/java/com/gmall/manage/service/impl/AttrServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="204">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,58 +153,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0c68726c-ecce-4adb-a72a-1de3c759c177/console.sql">
+        <entry file="file://$PROJECT_DIR$/gmall-manage-web/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
+            <state relative-caret-position="252">
+              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gmall-api/src/main/java/com/gmall/bean/PmsBaseCatalog3.java">
+        <entry file="file://$PROJECT_DIR$/gmall-manage-server/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="20" column="29" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gmall-api/src/main/java/com/gmall/bean/PmsBaseCatalog2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gmall-manage-server/src/main/java/com/gmall/manage/mapper/PmsBaseCatalog2Mapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="12" column="1" selection-end-line="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gmall-manage-server/src/main/java/com/gmall/manage/mapper/PmsBaseCatalog1Mapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="432">
+              <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="25" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -185,8 +175,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -220,13 +210,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/gmall-api/src/main/java/com/gmall/service/UserService.java" />
-        <option value="$PROJECT_DIR$/gmall-user/src/main/java/com/gmall/user/service/impl/UseServiceImpl.java" />
-        <option value="$PROJECT_DIR$/gmall-user/src/main/java/com/gmall/user/mapper/UserMemberMapper.java" />
-        <option value="$PROJECT_DIR$/gmall-user/src/main/java/com/gmall/user/mapper/UmsMemberReceiveAddressMapper.java" />
-        <option value="$PROJECT_DIR$/gmall-api/src/main/java/com/gmall/bean/PmsProductInfo.java" />
         <option value="$PROJECT_DIR$/gmall-api/src/main/java/com/gmall/bean/PmsProductSaleAttr.java" />
-        <option value="$PROJECT_DIR$/gmall-api/src/main/java/com/gmall/bean/PmsBaseAttrInfo.java" />
         <option value="$PROJECT_DIR$/gmall-api/src/main/java/com/gmall/bean/BaseAttrValue.java" />
         <option value="$PROJECT_DIR$/gmall-api/src/main/java/com/gmall/bean/BaseCatalog3.java" />
         <option value="$PROJECT_DIR$/gmall-api/src/main/java/com/gmall/bean/PmsSkuInfo.java" />
@@ -239,7 +223,6 @@
         <option value="$PROJECT_DIR$/gmall-user-service/src/main/java/com/gmall/user/mapper/UserMemberMapper.java" />
         <option value="$PROJECT_DIR$/gmall-user-service/src/main/java/com/gmall/user/mapper/UmsMemberReceiveAddressMapper.java" />
         <option value="$PROJECT_DIR$/gmall-parent/pom.xml" />
-        <option value="$PROJECT_DIR$/gmall-common-util/pom.xml" />
         <option value="$PROJECT_DIR$/gmall-user-service/src/main/java/com/gmall/user/service/impl/UseServiceImpl.java" />
         <option value="$PROJECT_DIR$/gmall-user/src/main/java/com/gmall/user/action/UserAction.java" />
         <option value="$PROJECT_DIR$/gmall-web-util/pom.xml" />
@@ -263,7 +246,6 @@
         <option value="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/gmall/manage/GmallManageWebApplication.java" />
         <option value="$PROJECT_DIR$/gmall-user-service/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/gmall-manage-web/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/gmall-manage-server/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/readMe.md" />
         <option value="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/gmall/manage/action/CatelogAction.java" />
         <option value="$PROJECT_DIR$/gmall-api/src/main/java/com/gmall/bean/PmsBaseCatalog2.java" />
@@ -271,6 +253,14 @@
         <option value="$PROJECT_DIR$/gmall-manage-server/src/main/java/com/gmall/manage/service/impl/CatalogServiceImpl.java" />
         <option value="$PROJECT_DIR$/gmall-manage-server/pom.xml" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/0c68726c-ecce-4adb-a72a-1de3c759c177/console.sql" />
+        <option value="$PROJECT_DIR$/gmall-api/src/main/java/com/gmall/bean/PmsBaseAttrInfo.java" />
+        <option value="$PROJECT_DIR$/gmall-manage-server/src/main/java/com/gmall/manage/mapper/PmsBaseAttrInfoMapper.java" />
+        <option value="$PROJECT_DIR$/gmall-manage-server/src/main/java/com/gmall/manage/mapper/PmsBaseAttrValueMapper.java" />
+        <option value="$PROJECT_DIR$/gmall-common-util/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-manage-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/gmall-api/src/main/java/com/gmall/service/AttrService.java" />
+        <option value="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/gmall/manage/action/AttrAction.java" />
+        <option value="$PROJECT_DIR$/gmall-manage-server/src/main/java/com/gmall/manage/service/impl/AttrServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -303,6 +293,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -364,18 +356,18 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="gmall" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gmall" type="b2602c69:ProjectViewProjectNode" />
               <item name="gmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-common-util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gmall" type="b2602c69:ProjectViewProjectNode" />
               <item name="gmall" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-common-util" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gmall" type="b2602c69:ProjectViewProjectNode" />
@@ -487,12 +479,6 @@
               <item name="gmall" type="b2602c69:ProjectViewProjectNode" />
               <item name="gmall" type="462c0819:PsiDirectoryNode" />
               <item name="gmall-manage-web" type="462c0819:PsiDirectoryNode" />
-              <item name=".mvn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-manage-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -563,124 +549,179 @@
             <path>
               <item name="gmall" type="b2602c69:ProjectViewProjectNode" />
               <item name="gmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-parent" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gmall" type="b2602c69:ProjectViewProjectNode" />
               <item name="gmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-parent" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gmall" type="b2602c69:ProjectViewProjectNode" />
               <item name="gmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-user-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-user-web" type="462c0819:PsiDirectoryNode" />
-              <item name=".mvn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-user-web" type="462c0819:PsiDirectoryNode" />
-              <item name=".mvn" type="462c0819:PsiDirectoryNode" />
-              <item name="wrapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-user-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-user-web" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-parent" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gmall" type="b2602c69:ProjectViewProjectNode" />
               <item name="gmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-user-web" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-server-util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gmall" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-server-util" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gmall" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-server-util" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="gmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:4.3.24.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="gmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:4.3.24.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-4.3.24.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:4.3.24.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-4.3.24.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:4.3.24.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-4.3.24.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:4.3.24.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-4.3.24.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:4.3.24.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-4.3.24.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="method" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:4.3.24.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-4.3.24.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="method" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.3.24.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="gmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.3.24.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-4.3.24.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.3.24.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-4.3.24.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.3.24.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-4.3.24.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.3.24.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-4.3.24.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.3.24.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-4.3.24.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.3.24.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-4.3.24.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.3.24.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-4.3.24.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="method" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.3.24.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-4.3.24.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="method" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gmall" type="b2602c69:ProjectViewProjectNode" />
@@ -701,8 +742,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -720,12 +759,17 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/gmall-api/src/main/java/com/gmall/bean" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15437561" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\MyCode\demo\gmall\gmall-user-service\src\main\resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.gmall.manage.mapper" />
+      <recent name="com.gmall.service" />
+      <recent name="com.gmall.bean" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.gmall.user" />
@@ -740,10 +784,8 @@
       <recent name="com.gmall.user.action" />
       <recent name="com.gmall.service" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.gmall.manage.mapper" />
-      <recent name="com.gmall.service" />
-      <recent name="com.gmall.bean" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\MyCode\demo\gmall\gmall-user-service\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -892,7 +934,8 @@
       <workItem from="1571918947859" duration="260000" />
       <workItem from="1572158003561" duration="5376000" />
       <workItem from="1572777333369" duration="10030000" />
-      <workItem from="1573126157727" duration="872000" />
+      <workItem from="1573126157727" duration="4780000" />
+      <workItem from="1573975114740" duration="2808000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1570348471241</created>
@@ -936,7 +979,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572162314286</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="dubbo框架-三级联动搜素">
+      <created>1573127110862</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1573127110862</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -951,7 +1001,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50509000" />
+    <option name="totallyTimeSpent" value="57225000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -965,7 +1015,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49667773" visible="true" weight="0.2761194" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49667773" visible="true" weight="0.2793177" />
       <window_info id="Structure" order="1" sideWeight="0.5016611" side_tool="true" weight="0.26865673" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -973,8 +1023,8 @@
       <window_info id="Web" order="5" sideWeight="0.50332224" side_tool="true" weight="0.2761194" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.53786194" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.13919821" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.27839643" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34632516" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.37861916" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32962137" />
@@ -984,7 +1034,7 @@
       <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32962137" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.32962137" />
-      <window_info anchor="bottom" id="Database Console" order="13" weight="0.32962137" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.08129176" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.3129176" />
       <window_info anchor="bottom" id="Java Enterprise" order="15" weight="0.32962137" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1055,22 +1105,35 @@
     <MESSAGE value="初始化" />
     <MESSAGE value="框架" />
     <MESSAGE value="dubbo框架" />
-    <option name="LAST_COMMIT_MESSAGE" value="dubbo框架" />
+    <MESSAGE value="dubbo框架-三级联动搜素" />
+    <option name="LAST_COMMIT_MESSAGE" value="dubbo框架-三级联动搜素" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/gmall-user-service/src/main/java/com/gmall/user/service/impl/UseServiceImpl.java</url>
-          <line>35</line>
+          <url>file://$PROJECT_DIR$/gmall-manage-server/src/main/java/com/gmall/manage/service/impl/AttrServiceImpl.java</url>
+          <line>27</line>
           <properties />
-          <option name="timeStamp" value="10" />
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/gmall-manage-server/src/main/java/com/gmall/manage/service/impl/CatalogServiceImpl.java</url>
-          <line>30</line>
+          <url>file://$PROJECT_DIR$/gmall-manage-web/src/main/java/com/gmall/manage/action/AttrAction.java</url>
+          <line>29</line>
           <properties />
-          <option name="timeStamp" value="13" />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gmall-manage-web/src/main/java/com/gmall/manage/action/AttrAction.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gmall-manage-server/src/main/java/com/gmall/manage/service/impl/AttrServiceImpl.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1081,55 +1144,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gmall-user-service/src/test/java/com/gmall/user/GmallUserServiceApplicationTests.java" />
-    <entry file="file://$PROJECT_DIR$/gmall-parent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2790">
-          <caret line="155" column="54" selection-start-line="155" selection-start-column="54" selection-end-line="155" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-user-web/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-user/mvnw.cmd">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-user/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="36" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-server-util/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" selection-start-line="9" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-user-web/mvnw">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-web-util/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="10" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-user-web/gmall-user-web.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-user-web/src/test/java/com/gmall/user/GmallUserWebApplicationTests.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.24.RELEASE/spring-web-4.3.24.RELEASE.jar!/org/springframework/web/method/HandlerMethodSelector.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -1210,13 +1224,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-common-util/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="83" column="21" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gmall-manage-server/src/test/java/com/gmall/manage/GmallManageServerApplicationTests.java" />
     <entry file="file://$PROJECT_DIR$/gmall-manage-web/src/test/java/com/gmall/manage/GmallManageWebApplicationTests.java" />
     <entry file="file://$PROJECT_DIR$/gmall-user-web/src/main/java/com/gmall/user/GmallUserWebApplication.java">
@@ -1273,13 +1280,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.24.RELEASE/spring-web-4.3.24.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gmall-user-service/gmall-user-service.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1297,30 +1297,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-manage-web/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-manage-server/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readMe.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="90">
-            <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gmall-user-web/.mvn/wrapper/maven-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1328,28 +1304,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-manage-server/src/main/java/com/gmall/manage/service/impl/CatalogServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="46" column="54" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
-            <element signature="e#937#938#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-manage-web/src/main/java/com/gmall/manage/GmallManageWebApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1395,18 +1349,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gmall-manage-server/src/main/java/com/gmall/manage/mapper/PmsBaseCatalog2Mapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="216">
           <caret line="12" column="1" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-manage-server/src/main/java/com/gmall/manage/mapper/PmsBaseCatalog1Mapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1420,17 +1364,175 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-api/src/main/java/com/gmall/bean/PmsBaseAttrValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-api/src/main/java/com/gmall/bean/PmsBaseAttrInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-manage-web/src/main/java/com/gmall/manage/GmallManageWebApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-manage-server/src/main/java/com/gmall/manage/mapper/PmsBaseAttrValueMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-manage-server/src/main/java/com/gmall/manage/mapper/PmsBaseCatalog1Mapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-manage-server/src/main/java/com/gmall/manage/mapper/PmsBaseAttrInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-common-util/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="85" column="20" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-manage-web/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0c68726c-ecce-4adb-a72a-1de3c759c177/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-manage-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="25" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-server-util/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-manage-server/src/main/java/com/gmall/manage/service/impl/CatalogServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#937#938#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-api/src/main/java/com/gmall/service/AttrService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-manage-web/src/main/java/com/gmall/manage/action/AttrAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.24.RELEASE/spring-web-4.3.24.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.24.RELEASE/spring-webmvc-4.3.24.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="537" selection-start-line="537" selection-end-line="537" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gmall-manage-web/src/main/java/com/gmall/manage/action/CatelogAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="180">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-manage-server/src/main/java/com/gmall/manage/service/impl/AttrServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1440,9 +1542,78 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>gmall-server-util</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
